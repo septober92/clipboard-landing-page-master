@@ -96,25 +96,30 @@ a {
   transition: all 0.3s ease;
 }
 
-.btn:hover,
-.btn:active {
-  background-position: bottom;
+.btn:hover {
+  opacity: 0.75;
 }
 
 .btn-ios {
-  background: linear-gradient(transparent, rgba(255, 255, 255, 0.25)) top/100%
-    1000%;
   background-color: var(--strong-cyan);
   border-bottom: 3px solid rgb(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem hsla(171, 66%, 44%, 0.3);
 }
 
+.btn-ios:active {
+  transform: translateY(-0.1px);
+  box-shadow: 0 0.4rem 1rem hsla(171, 66%, 44%, 0.5);
+}
+
 .btn-mac {
-  background: linear-gradient(transparent, rgba(255, 255, 255, 0.25)) top/100%
-    800%;
   background-color: var(--light-blue);
   border-bottom: 3px solid rgb(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem hsla(233, 100%, 69%, 0.3);
+}
+
+.btn-mac:active {
+  transform: translateY(-0.1px);
+  box-shadow: 0 0.4rem 1rem hsla(233, 100%, 69%, 0.5);
 }
 
 .main-description {
