@@ -1,0 +1,89 @@
+/* LAPTOPS (1024px) */
+
+@media (max-width: 64em) {
+  .centered-container {
+    /* max-width: 110rem; */
+  }
+
+  .clipboard-features__container {
+    gap: 4.8rem;
+    padding: 0 3.2rem;
+  }
+
+  .clipboard-features__img-box {
+    margin-left: -8rem;
+  }
+
+  .clipboard-features__img {
+    width: 95%;
+  }
+
+  .clipboard-partners__container {
+    gap: 4.8rem;
+  }
+}
+
+@media (max-width: 58.6875em) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .clipboard-access__img {
+    width: 90%;
+  }
+
+  .clipboard-partners__container {
+    /* gap: 3.2rem; */
+    /* justify-content: space-between; */
+  }
+
+  .clipboard-partner {
+    width: 12.8rem;
+  }
+}
+
+@media (max-width: 51.25em) {
+  .clipboard-partner {
+    width: 12.8rem;
+  }
+
+  .clipboard__nav {
+    gap: 6rem;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 50%;
+  }
+
+  .clipboard-tool--icon {
+    width: 4rem;
+  }
+
+  .clipboard-partner {
+    width: 10.6rem;
+  }
+}
+
+@media (max-width: 43.75em) {
+  .clipboard-features__container {
+    flex-direction: column;
+  }
+
+  .clipboard-features__img-box {
+    margin: 0;
+  }
+
+  .clipboard-features__img {
+    width: 80%;
+  }
+
+  .clipboard-features {
+    text-align: center;
+  }
+
+  .cl-footer {
+    gap: 6.8rem;
+  }
+}

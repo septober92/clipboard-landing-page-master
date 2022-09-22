@@ -79,8 +79,8 @@
 .clipboard-partners__container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 9.6rem;
+  justify-content: space-around;
+  /* gap: 9.6rem; */
 }
 
 /* AVAIL ON */
