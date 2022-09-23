@@ -10,9 +10,19 @@
     box-shadow: 0 1rem 2rem hsla(171, 66%, 44%, 0.5);
   }
 
+  .btn-ios:active {
+    transform: translateY(-0.1px);
+    box-shadow: 0 0.4rem 1rem hsla(171, 66%, 44%, 0.5);
+  }
+
   .btn-mac:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem hsla(233, 100%, 69%, 0.5);
+  }
+
+  .btn-mac:active {
+    transform: translateY(-0.1px);
+    box-shadow: 0 0.4rem 1rem hsla(233, 100%, 69%, 0.5);
   }
 
   .footer-nav-link:hover {
@@ -143,6 +153,7 @@
     font-size: 2.8rem;
   }
 
+  .main-description,
   .description {
     font-size: 1.9rem;
   }
