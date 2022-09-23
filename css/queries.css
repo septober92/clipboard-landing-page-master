@@ -184,4 +184,14 @@
   .cl-footer-inner {
     gap: 5rem;
   }
+
+  .attribution {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 24.375em) {
+  html {
+    font-size: 55%;
+  }
 }
