@@ -7,7 +7,7 @@
 
   .clipboard-features__container {
     gap: 4.8rem;
-    padding: 0 3.2rem;
+    /* padding: 0 3.2rem; */
   }
 
   .clipboard-features__img-box {
@@ -21,48 +21,43 @@
   .clipboard-partners__container {
     gap: 4.8rem;
   }
+
+  .cl-footer-inner {
+    gap: 5rem;
+  }
 }
 
 @media (max-width: 58.6875em) {
   html {
-    font-size: 56.5%;
+    /* font-size: 56.5%; */
   }
 
   .clipboard-access__img {
     width: 90%;
   }
-
-  .clipboard-partners__container {
-    /* gap: 3.2rem; */
-    /* justify-content: space-between; */
-  }
-
-  .clipboard-partner {
-    width: 12.8rem;
-  }
 }
 
 @media (max-width: 51.25em) {
-  .clipboard-partner {
-    width: 12.8rem;
+  .clipboard__nav {
+    gap: 4.2rem;
   }
 
-  .clipboard__nav {
-    gap: 6rem;
+  .clipboard-footer {
+    font-size: 1.4rem;
   }
 }
 
 @media (max-width: 50em) {
   html {
-    font-size: 50%;
+    /* font-size: 50%; */
   }
 
   .clipboard-tool--icon {
     width: 4rem;
   }
 
-  .clipboard-partner {
-    width: 10.6rem;
+  .cl-footer-inner {
+    gap: 4.2rem;
   }
 }
 
@@ -83,7 +78,110 @@
     text-align: center;
   }
 
-  .cl-footer {
-    gap: 6.8rem;
+  .cl-footer-inner {
+    gap: 4.2rem;
+  }
+}
+
+@media (max-width: 40.1875em) {
+  .section-hd-container {
+    /* padding: 0 2.4rem; */
+  }
+
+  .heading-primary {
+    /* font-size: 4rem; */
+  }
+
+  .clipboard__nav {
+    gap: 3.2rem;
+  }
+}
+
+@media (max-width: 26.75em) {
+  body {
+    background: url(../images/bg-header-mobile.png) top/100% no-repeat;
+  }
+
+  .clipboard-header {
+    padding-top: 17rem;
+  }
+
+  .clipboard__header-logo-box {
+    margin-bottom: 8rem;
+  }
+
+  .clipboard-logo {
+    width: 16rem;
+  }
+
+  .heading-primary {
+    font-size: 3.7rem;
+    line-height: 1.5;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 1.5;
+  }
+
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+
+  .description {
+    font-size: 1.9rem;
+  }
+
+  .clipboard__buttons-box {
+    flex-direction: column;
+    gap: 3rem;
+    /* padding: 0 3.2rem; */
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+  }
+
+  .clipboard-features__img {
+    width: 100%;
+  }
+
+  .clipboard-access__img {
+    width: 100%;
+  }
+
+  .clipboard-tools {
+    grid-template-columns: 1fr;
+    row-gap: 5.2rem;
+  }
+
+  .clipboard-partners__container {
+    flex-direction: column;
+    gap: 8rem;
+  }
+
+  .cl-footer-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clipboard__nav {
+    flex-direction: column;
+  }
+  .clipboard__nav-box {
+    align-items: center;
+  }
+
+  .clipboard-footer__socials {
+    margin: 0;
+  }
+
+  .clipboard-footer {
+    font-size: 1.9rem;
+  }
+
+  .cl-footer-inner {
+    gap: 5rem;
   }
 }
