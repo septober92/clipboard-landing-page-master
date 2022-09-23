@@ -30,8 +30,6 @@ body {
   line-height: 1;
 
   background: url(../images/bg-header-desktop.png) top/100% no-repeat;
-
-  /* padding: 0 3.2rem; */
 }
 
 a {
@@ -97,19 +95,10 @@ a {
   transition: all 0.3s ease;
 }
 
-.btn:hover {
-  opacity: 0.75;
-}
-
 .btn-ios {
   background-color: var(--strong-cyan);
   border-bottom: 3px solid rgb(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem hsla(171, 66%, 44%, 0.3);
-}
-
-.btn-ios:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem hsla(171, 66%, 44%, 0.5);
 }
 
 .btn-ios:active {
@@ -121,11 +110,6 @@ a {
   background-color: var(--light-blue);
   border-bottom: 3px solid rgb(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem hsla(233, 100%, 69%, 0.3);
-}
-
-.btn-mac:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem hsla(233, 100%, 69%, 0.5);
 }
 
 .btn-mac:active {

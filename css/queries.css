@@ -1,13 +1,34 @@
-/* LAPTOPS (1024px) */
+/* nonsticky hover state on touch devices */
 
-@media (max-width: 64em) {
-  .centered-container {
-    /* max-width: 110rem; */
+@media (hover: hover) {
+  .btn:hover {
+    opacity: 0.75;
   }
 
+  .btn-ios:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem hsla(171, 66%, 44%, 0.5);
+  }
+
+  .btn-mac:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem hsla(233, 100%, 69%, 0.5);
+  }
+
+  .footer-nav-link:hover {
+    color: var(--strong-cyan);
+  }
+
+  .attribution a:hover {
+    color: var(--dark-grayish-blue);
+  }
+}
+
+/* laptops & tablets */
+
+@media (max-width: 64em) {
   .clipboard-features__container {
     gap: 4.8rem;
-    /* padding: 0 3.2rem; */
   }
 
   .clipboard-features__img-box {
@@ -84,18 +105,12 @@
 }
 
 @media (max-width: 40.1875em) {
-  .section-hd-container {
-    /* padding: 0 2.4rem; */
-  }
-
-  .heading-primary {
-    /* font-size: 4rem; */
-  }
-
   .clipboard__nav {
     gap: 3.2rem;
   }
 }
+
+/* mobile phones */
 
 @media (max-width: 26.75em) {
   body {
@@ -193,5 +208,11 @@
 @media (max-width: 24.375em) {
   html {
     font-size: 55%;
+  }
+}
+
+@media (max-width: 23.4375em) {
+  html {
+    font-size: 54.5%;
   }
 }

@@ -93,10 +93,6 @@
 
 /* AVAIL ON */
 
-/* .section_clipboard-available-on {
-  margin-bottom: 15.8rem;
-} */
-
 /* FOOTER */
 
 .clipboard-footer {
@@ -134,7 +130,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.footer-nav-link:hover,
 .footer-nav-link:active {
   color: var(--strong-cyan);
 }
@@ -148,10 +143,6 @@
   font-size: 2.4rem;
 }
 
-.footer-nav-link-social:hover {
-  stroke: var(--strong-cyan);
-}
-
 /* FM - coded  by */
 
 .attribution {
@@ -163,8 +154,4 @@
   color: var(--strong-cyan);
   font-weight: 700;
   transition: all 0.3s ease-in-out;
-}
-
-.attribution a:hover {
-  color: var(--dark-grayish-blue);
 }
